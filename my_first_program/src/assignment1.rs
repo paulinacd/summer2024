@@ -18,6 +18,6 @@ fn fahrenheit_to_celsius(f: f64) -> f64{
      
      let temperatures = [33, 34, 35, 36, 37];
      for i in 0..temperatures.len(){
-    println!("{}F = {}C", temperatures[i], fahrenheit_to_celsius(temperatures[i] as f64));
+    println!("{}", fahrenheit_to_celsius(temperatures[i] as f64));
      }
     }
